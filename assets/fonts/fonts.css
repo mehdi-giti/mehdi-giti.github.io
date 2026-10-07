@@ -1,0 +1,9 @@
+/* Google Fonts enhance the design; system fallbacks keep it usable offline. */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&family=VT323&display=swap');
+/* VT323 has compact glyphs. Adjust a local fallback to protect headline wrapping. */
+@font-face {
+  font-family: 'Terminal Fallback';
+  src: local('Courier New'), local('Liberation Mono'), local('DejaVu Sans Mono');
+  size-adjust: 68%;
+  font-display: swap;
+}
